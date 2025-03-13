@@ -627,12 +627,12 @@ html {
   text-decoration: none;
 
   @media screen and (max-width: 425px) {
-    margin-left: -15px;
+    margin-left: 0px;
   }
 }
 
 .footer__social {
-  padding-left: 0px;
+  padding-right: 15px;
   display: flex;
   column-gap: 30px;
   list-style: none;
@@ -656,5 +656,8 @@ html {
       width: 22px;
       height: 22px;
     }
+  }
+  @media screen and (max-width: 768px) {
+    margin-left: -38px;
   }
 }
